@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;800&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/*global css*/
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  background:linear-gradient(45deg,#3245ED,#7E2CE7 );
+}
+
+h1,
+h2,
+h3,
+p{
+  margin: 0;
+}
+
+body{
+  color: white;
+  font-family: 'Inter', sans-serif;
+  
+}
+
+
+
+/*home css*/
+/*title content*/
+.content-1{
+  font-weight: 500;
+  font-size: 48px ;
+}
+.content-2{
+  font-weight: 800;
+  font-size: 80px;
+}
+
+.section--title{
+  margin: 40px;
+}
+.title--content{
+  padding-left: 5.5rem;
+}
+
+/*home img*/
+.img--container{
+  width:100%;
+  max-width: fit-content;
+  margin-top: 200px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+/*grid img under shop img*/
+.grid--img{
+  background-image: url('./assets/Group.png');
+  width: 540px;
+  height: 508.95px;
+  margin-left: -15px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.shop--img{
+  background-image: url('./assets/image_632.jpg');
+  width: 693.86px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -105px;
+  margin-left: -20px;
 }
