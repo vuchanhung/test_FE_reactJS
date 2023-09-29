@@ -27,12 +27,8 @@
 
 /*home img*/
 .img--container {
-    width: 100%;
-    max-width: fit-content;
+    width: 50%;
     margin-top: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /*grid img under shop img*/
@@ -48,8 +44,10 @@
     width: 693.86px;
     height: 500px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     margin-top: -105px;
     margin-left: -20px;
+}
+
+.bundle--widget{
+    width: 50%;
 }
