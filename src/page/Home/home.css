@@ -33,14 +33,14 @@
 
 /*grid img under shop img*/
 .grid--img {
-    background-image: url('../../assets/Group.png');
+    background-image: url('../../assets/images/Group.png');
     width: 540px;
     height: 508.95px;
     margin-left: -15px;
 }
 
 .shop--img {
-    background-image: url('../../assets/image_632.jpg');
+    background-image: url('../../assets/images/image_632.jpg');
     width: 693.86px;
     height: 500px;
     display: flex;
