@@ -1,7 +1,7 @@
 import React from 'react'
-import './home.css'
-import Folder from '../../components/folder/folder'
-const home = () => {
+import './Home.css'
+import MainScreen from '../../components/MainScreen/MainScreen'
+const Home = () => {
   return (
     <>
       <div className="home--container">
@@ -24,7 +24,7 @@ const home = () => {
           
           {/*bundles widget on the right  */}
           <div className="bundle--widget">
-            <Folder />
+            <MainScreen />
           </div>
         </div>
       </div>
@@ -33,4 +33,4 @@ const home = () => {
   )
 }
 
-export default home
+export default Home

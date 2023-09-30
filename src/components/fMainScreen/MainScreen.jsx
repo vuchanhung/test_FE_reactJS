@@ -1,7 +1,9 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { bundles } from "../../assets/data/bundles";
 
-const folder = () => {
+const Folder = () => {
+ 
+
   const bundlesList = bundles.map((bundle) => (
     <div className="bundle--container" key={bundle["name"]}>
       <img src={bundle["icon"]} alt="Icon of bundle"></img>
@@ -11,4 +13,4 @@ const folder = () => {
   return <div>{bundlesList}</div>;
 };
 
-export default folder
+export default Folder
