@@ -21,6 +21,8 @@
     backdrop-filter: blur(40px);
 }
 
+
+
 .icons--on--top{
     display: flex;
     align-items: center;
@@ -69,4 +71,18 @@
     border-radius: 270px;
     border: 2.25px solid var(--linear-card-stroke, #FFF);
     background: rgba(255, 255, 255, 0.30);
+}
+
+
+
+.primary--btn{
+    background: none;
+    border: none;
+}
+.btn1{
+    transition: .4s all;
+}
+
+.btn1:hover{
+    transform: scale(1.2);
 }

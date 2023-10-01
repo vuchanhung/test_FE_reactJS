@@ -1,10 +1,12 @@
 import React from 'react'
 import './FolderProfile.css'
+import {Button} from 'reactstrap'
 import { Additem, InfoCircle, FavoriteChart, People } from 'iconsax-react'
 
 const FolderProfile = () => {
     return (
         <div className='folder--profile'>
+            <Button className='primary--btn btn'>
             <div className='profile--icons'>
                 <div className='icons--on--top'>
                     <div className='additem--icon'>
@@ -23,6 +25,8 @@ const FolderProfile = () => {
                     </div>
                 </div>
             </div>
+            </Button>
+            
             <span className='profile--name'>
                 <p>Profiles</p>
             </span>
