@@ -1,5 +1,4 @@
 import React from 'react'
-import { EmojiHappy } from 'iconsax-react';
 import './Home.css'
 import MainScreen from '../../components/MainScreen/MainScreen'
 const Home = () => {
