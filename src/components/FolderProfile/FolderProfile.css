@@ -1,19 +1,18 @@
-/* folder explore css */
-.folder--explore{
+.folder--profile{
     display: flex;
     width: 204px;
     flex-direction: column;
     align-items: center;
     gap: 15px;
 }
-.explore--icons{
+
+.profile--icons{
     display: flex;
+    padding: 16px;
     height: 140px;
     width: 140px;
-    padding: 16px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: top;
+    flex-direction: column;
+    align-items: center;
     gap: 16px;
     border-radius: 24px;
     border: 2px solid #FFF;
@@ -21,7 +20,22 @@
     box-shadow: 0px 8px 16px 0px rgba(27, 27, 27, 0.16);
     backdrop-filter: blur(40px);
 }
-.box--icon{
+
+.icons--on--top{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.icons--on--bottom{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.additem--icon{
     display: flex;
     width: 40px;
     height: 40px;
@@ -33,7 +47,7 @@
     background: rgba(255, 255, 255, 0.30);
 }
 
-.building--icon{
+.infocircle--icon{
     display: flex;
     width: 40px;
     height: 40px;
@@ -44,7 +58,32 @@
     border: 2.25px solid var(--linear-card-stroke, #FFF);
     background: rgba(255, 255, 255, 0.30);
 }
-.explore--name{
+
+.favorchart--icon{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 270px;
+    border: 2.25px solid var(--linear-card-stroke, #FFF);
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.people--icon{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 270px;
+    border: 2.25px solid var(--linear-card-stroke, #FFF);
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.profile--name{
     display: flex;
     justify-content: center;
     align-items: center;

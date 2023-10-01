@@ -3,5 +3,9 @@
 /* folder on top css */
 .folder--on--top{
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    gap: 32px;
 }
+
+
+/* foler profile css */
