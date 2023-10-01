@@ -73,16 +73,7 @@
     background: rgba(255, 255, 255, 0.30);
 }
 
-
-
-.primary--btn{
-    background: none;
-    border: none;
-}
-.btn1{
-    transition: .4s all;
-}
-
-.btn1:hover{
-    transform: scale(1.2);
+.dialog--bg{
+    color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(40px);
 }
