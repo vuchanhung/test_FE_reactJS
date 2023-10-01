@@ -73,10 +73,7 @@ const FolderProfile = () => {
                             }}
                         >
                             <DialogContent >
-                                <div style={{
-                                    display: 'flex',
-                                    gap: '50px'
-                                }}>
+                                <div className='dialog--style'>
                                     <div className='popup--icon--container'>
                                         <div className='inside--popup--icon'>
                                             <div className='popup--icon--1'>
@@ -84,7 +81,7 @@ const FolderProfile = () => {
                                             </div>
                                         </div>
                                         <span className='secondary--text'>
-                                            <p style={{ color: '#fff' }}>Online shop</p>
+                                            <p style={{ color: '#fff' }}>Add Subscription</p>
                                         </span>
                                     </div>
                                     <div className='popup--icon--container'>
@@ -94,7 +91,7 @@ const FolderProfile = () => {
                                             </div>
                                         </div>
                                         <span className='secondary--text'>
-                                            <p style={{ color: '#fff' }}>Product Dashboard</p>
+                                            <p style={{ color: '#fff' }}>Public Information</p>
                                         </span>
                                     </div>
                                     <div className='popup--icon--container'>
@@ -104,7 +101,7 @@ const FolderProfile = () => {
                                             </div>
                                         </div>
                                         <span className='secondary--text'>
-                                            <p style={{ color: '#fff' }}>Offer Dashboard</p>
+                                            <p style={{ color: '#fff' }}>Business Information</p>
                                         </span>
                                     </div>
                                     <div className='popup--icon--container'>
@@ -114,7 +111,7 @@ const FolderProfile = () => {
                                             </div>
                                         </div>
                                         <span className='secondary--text'>
-                                            <p style={{ color: '#fff' }}>Offer Dashboard</p>
+                                            <p style={{ color: '#fff' }}>Connection</p>
                                         </span>
                                     </div>
                                 </div>

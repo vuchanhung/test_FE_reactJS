@@ -59,49 +59,46 @@ const FolderStore = () => {
                                     entering: { opacity: 1 },
                                     entered: { opacity: 1 },
                                 }[state],
-                                backgroundColor:'rgba(255, 255, 255, 0.40)',
-                                border:'none',
-                                borderRadius:'60px',
-                                width:'95%',
-                                alignItems:'center',
-                                backdropFilter:'blur(40px)'
+                                backgroundColor: 'rgba(255, 255, 255, 0.40)',
+                                border: 'none',
+                                borderRadius: '60px',
+                                width: '95%',
+                                alignItems: 'center',
+                                backdropFilter: 'blur(40px)'
                             }}
                         >
                             <DialogContent >
-                                <div style={{
-                                    display: 'flex',
-                                    gap:'50px'
-                                }}>
+                                <div className='dialog--style'>
                                     <div className='popup--icon--container'>
-                                    <div className='inside--popup--icon'>
-                                      <div className='popup--icon--1'>
-                                        <ShoppingCart size="80" color="#FFFFFF" variant='Bold' />
-                                      </div>
+                                        <div className='inside--popup--icon'>
+                                            <div className='popup--icon--1'>
+                                                <ShoppingCart size="80" color="#FFFFFF" variant='Bold' />
+                                            </div>
+                                        </div>
+                                        <span className='secondary--text'>
+                                            <p style={{ color: '#fff' }}>Online shop</p>
+                                        </span>
                                     </div>
-                                    <span className='secondary--text'>
-                                      <p style={{color:'#fff'}}>Online shop</p>
-                                    </span>
-                                  </div>                 
-                                  <div className='popup--icon--container'>
-                                    <div className='inside--popup--icon'>
-                                      <div className='popup--icon--1'>
-                                        <ChartSquare size="80" color="#FFFFFF" variant='Bold' />
-                                      </div>                                     
-                                    </div>  
-                                    <span className='secondary--text'>
-                                        <p style={{color:'#fff'}}>Product Dashboard</p>
-                                    </span>           
-                                  </div>
-                                  <div className='popup--icon--container'>
-                                    <div className='inside--popup--icon'>
-                                      <div className='popup--icon--1'>
-                                        <TicketDiscount size="80" color="#FFFFFF" variant='Bold' />
-                                      </div>                                     
-                                    </div>  
-                                    <span className='secondary--text'>
-                                        <p style={{color:'#fff'}}>Offer Dashboard</p>
-                                    </span>           
-                                  </div>                      
+                                    <div className='popup--icon--container'>
+                                        <div className='inside--popup--icon'>
+                                            <div className='popup--icon--1'>
+                                                <ChartSquare size="80" color="#FFFFFF" variant='Bold' />
+                                            </div>
+                                        </div>
+                                        <span className='secondary--text'>
+                                            <p style={{ color: '#fff' }}>Product Dashboard</p>
+                                        </span>
+                                    </div>
+                                    <div className='popup--icon--container'>
+                                        <div className='inside--popup--icon'>
+                                            <div className='popup--icon--1'>
+                                                <TicketDiscount size="80" color="#FFFFFF" variant='Bold' />
+                                            </div>
+                                        </div>
+                                        <span className='secondary--text'>
+                                            <p style={{ color: '#fff' }}>Offer Dashboard</p>
+                                        </span>
+                                    </div>
                                 </div>
                             </DialogContent>
                         </ModalDialog>

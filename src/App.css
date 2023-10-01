@@ -37,13 +37,15 @@ p {
     justify-content: center;
     align-items: center;
     color: #FFF;
+    height: 50px;
 }
 
 .popup--icon--container{
   display: flex;
   align-items: center;
-  width: 250px;
-  
+  flex: auto;
+  width: 260px;
+  padding-top: 10px;
   flex-direction: column;
   gap:10px
 }
@@ -71,4 +73,10 @@ p {
   border-radius: 270px;
   border: 2.25px solid var(--linear-card-stroke, #FFF);
   background: rgba(255, 255, 255, 0.50);
+}
+
+.dialog--style{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px
 }

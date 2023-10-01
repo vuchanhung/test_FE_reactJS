@@ -60,10 +60,7 @@ const FolderExplore = () => {
                             }}
                         >
                             <DialogContent >
-                                <div style={{
-                                    display: 'flex',
-                                    gap:'50px'
-                                }}>
+                                <div className='dialog--style'>
                                   <div className='popup--icon--container'>
                                     <div className='inside--popup--icon'>
                                       <div className='popup--icon--1'>
