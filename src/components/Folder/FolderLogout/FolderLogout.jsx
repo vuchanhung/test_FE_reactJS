@@ -1,7 +1,7 @@
 import React from 'react'
-import {  LogoutCurve } from 'iconsax-react'
+import { LogoutCurve } from 'iconsax-react'
 import './FolderLogout.css'
-import {Button} from 'reactstrap'
+import { Button } from 'reactstrap'
 const FolderDeveloper = () => {
     return (
         <div className='folder--logout'>

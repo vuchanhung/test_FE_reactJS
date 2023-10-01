@@ -11,7 +11,7 @@ const FolderDeveloper = () => {
                         <Message size="90" color="#FFFFFF" variant="Bold" />
                     </div>
                 </div>
-            </Button>           
+            </Button>
             <span className='message--name'>
                 <p>Message</p>
             </span>

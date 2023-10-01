@@ -54,7 +54,6 @@ const FolderStore = () => {
                         }}
                     >
                         <ModalDialog
-                            className='dialog--bg'
                             sx={{
                                 opacity: 0,
                                 transition: `opacity 300ms`,
@@ -62,17 +61,20 @@ const FolderStore = () => {
                                     entering: { opacity: 1 },
                                     entered: { opacity: 1 },
                                 }[state],
-                                backgroundColor:'rgba(255, 255, 255, 0.08)',
+                                backgroundColor:'rgba(255, 255, 255, 0.40)',
                                 border:'none',
                                 borderRadius:'60px',
                                 width:'95%',
                                 height:'40%',
                                 alignItems:'center',
-                                display:'flex'
+                                display:'flex',
+                                backdropFilter:'blur(40px)'
                             }}
                         >
                             <DialogContent >
-                                <div>
+                                <div style={{
+                                    display: 'flex',
+                                }}>
                                     <div className='shoppingcart--icon'>
                                         <ShoppingCart size="40" color="#FFFFFF" variant="Bold" />
                                     </div>

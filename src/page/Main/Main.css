@@ -23,26 +23,24 @@
 
 .imgs--widgets--container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
+    margin-top: 10rem;
 }
 
-/*home img*/
+/*imgs--widgets*/
 .img--container {
-    width: 49%;
     display: flex;
+    flex: auto;
     flex-direction: column;
-    align-items: left;
-
+    margin-bottom: 3rem;
 }
 
-/*grid img under shop img*/
 .grid--img {
     background-image: url('../../assets/images/Group.png');
     width: 33rem;
     height: 31rem;
-    margin-left: -1rem;
-    margin-top: 10rem;
 }
 
 .shop--img {
@@ -52,9 +50,10 @@
     display: flex;
     align-items: top;
     margin-top: -7.5rem;
-    
+
 }
 
-.bundle--widget{
-    width: 50%;
+.bundle--widget {
+    display: flex;
+    flex: auto;
 }
