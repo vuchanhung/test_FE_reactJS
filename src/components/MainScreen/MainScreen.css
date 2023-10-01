@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;800&display=swap');
+.folder--container{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
 
 /* folder on top css */
 .folder--on--top{
@@ -7,5 +12,13 @@
     gap: 32px;
 }
 
+/* folder on bottom css */
+.folder--on--bottom{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
 
-/* foler profile css */
+/* developer folder css */
+
+

@@ -17,9 +17,10 @@ const Home = () => {
           {/* img home on the left */}
           <div className="img--container">
             <div className="grid--img">
-              <div className="shop--img">
+            <div className="shop--img">
               </div>
             </div>
+            
           </div>
           
           {/*bundles widget on the right  */}

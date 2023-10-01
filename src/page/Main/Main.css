@@ -7,45 +7,52 @@
 /*title content*/
 .content-1 {
     font-weight: 500;
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 .content-2 {
     font-weight: 800;
-    font-size: 80px;
+    font-size: 4.5rem;
 }
 
 .title--container {
-    padding-left: 80px;
-    padding-top: 70px;
+    padding-left: 8rem;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
 }
 
 .imgs--widgets--container {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 /*home img*/
 .img--container {
     width: 49%;
-    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
 }
 
 /*grid img under shop img*/
 .grid--img {
     background-image: url('../../assets/images/Group.png');
-    width: 540px;
-    height: 508.95px;
-    margin-left: -15px;
+    width: 33rem;
+    height: 31rem;
+    margin-left: -1rem;
+    margin-top: 10rem;
 }
 
 .shop--img {
     background-image: url('../../assets/images/image_632.jpg');
-    width: 693.86px;
-    height: 500px;
+    width: 43rem;
+    height: 31rem;
     display: flex;
-    margin-top: -105px;
-    margin-left: -20px;
+    align-items: top;
+    margin-top: -7.5rem;
+    
 }
 
 .bundle--widget{
