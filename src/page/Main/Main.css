@@ -26,7 +26,6 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    margin-top: 10rem;
 }
 
 /*imgs--widgets*/
@@ -41,6 +40,8 @@
     background-image: url('../../assets/images/Group.png');
     width: 33rem;
     height: 31rem;
+    margin-top: 10rem;
+    margin-right: 1rem;
 }
 
 .shop--img {

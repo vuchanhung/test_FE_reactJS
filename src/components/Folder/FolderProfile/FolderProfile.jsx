@@ -73,22 +73,51 @@ const FolderProfile = () => {
                             }}
                         >
                             <DialogContent >
-                            <div style={{
+                                <div style={{
                                     display: 'flex',
+                                    gap: '50px'
                                 }}>
-                                 <div className='shoppingcart--icon'>
-                                    <Additem size="40" color="#FFFFFF" variant="Bold" />
+                                    <div className='popup--icon--container'>
+                                        <div className='inside--popup--icon'>
+                                            <div className='popup--icon--1'>
+                                                <Additem size="80" color="#FFFFFF" variant='Bold' />
+                                            </div>
+                                        </div>
+                                        <span className='secondary--text'>
+                                            <p style={{ color: '#fff' }}>Online shop</p>
+                                        </span>
+                                    </div>
+                                    <div className='popup--icon--container'>
+                                        <div className='inside--popup--icon'>
+                                            <div className='popup--icon--1'>
+                                                <InfoCircle size="80" color="#FFFFFF" variant='Bold' />
+                                            </div>
+                                        </div>
+                                        <span className='secondary--text'>
+                                            <p style={{ color: '#fff' }}>Product Dashboard</p>
+                                        </span>
+                                    </div>
+                                    <div className='popup--icon--container'>
+                                        <div className='inside--popup--icon'>
+                                            <div className='popup--icon--1'>
+                                                <FavoriteChart size="80" color="#FFFFFF" variant='Bold' />
+                                            </div>
+                                        </div>
+                                        <span className='secondary--text'>
+                                            <p style={{ color: '#fff' }}>Offer Dashboard</p>
+                                        </span>
+                                    </div>
+                                    <div className='popup--icon--container'>
+                                        <div className='inside--popup--icon'>
+                                            <div className='popup--icon--1'>
+                                                <People size="80" color="#FFFFFF" variant='Bold' />
+                                            </div>
+                                        </div>
+                                        <span className='secondary--text'>
+                                            <p style={{ color: '#fff' }}>Offer Dashboard</p>
+                                        </span>
+                                    </div>
                                 </div>
-                                <div className='chartsquare--icon'>
-                                    <InfoCircle size="40" color="#FFFFFF" variant='Bold' />
-                                </div>
-                                <div className='ticketdiscount--icon'>
-                                    <FavoriteChart size="40" color="#FFFFFF" variant="Bold" />
-                                </div>
-                                <div className='people--icon'>
-                                    <People size="40" color="#FFFFFF" variant="Bold" />
-                                </div>
-                            </div>                             
                             </DialogContent>
                         </ModalDialog>
                     </Modal>

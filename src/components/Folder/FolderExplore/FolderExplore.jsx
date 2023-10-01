@@ -62,27 +62,27 @@ const FolderExplore = () => {
                             <DialogContent >
                                 <div style={{
                                     display: 'flex',
-                                    flexDirection:'row'
+                                    gap:'50px'
                                 }}>
-                                  <div className='box--icon--container'>
-                                    <div className='box--icon--popup'>
-                                      <div className='box--icon--1'>
-                                        <Box1 size="40" color="#FFFFFF" variant='Bold' />
+                                  <div className='popup--icon--container'>
+                                    <div className='inside--popup--icon'>
+                                      <div className='popup--icon--1'>
+                                        <Box1 size="80" color="#FFFFFF" variant='Bold' />
                                       </div>
-                                      <span className='product--category--popup'>
-                                        <p style={{color:'#fff'}}>Product Category</p>
-                                      </span>
                                     </div>
+                                    <span className='secondary--text'>
+                                      <p style={{color:'#fff'}}>Product Category</p>
+                                    </span>
                                   </div>                 
-                                  <div className='building--icon--container'>
-                                    <div className='building--icon--popup'>
-                                      <div className='building--icon--1'>
-                                        <Box1 size="40" color="#FFFFFF" variant='Bold' />
-                                      </div>
-                                      <span className='product--category--popup'>
+                                  <div className='popup--icon--container'>
+                                    <div className='inside--popup--icon'>
+                                      <div className='popup--icon--1'>
+                                        <Building size="80" color="#FFFFFF" variant='Bold' />
+                                      </div>                                     
+                                    </div>  
+                                    <span className='secondary--text'>
                                         <p style={{color:'#fff'}}>Company</p>
-                                      </span>
-                                    </div>             
+                                    </span>           
                                   </div>           
                               </div>
                             </DialogContent>
